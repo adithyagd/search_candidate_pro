@@ -1,0 +1,45 @@
+:root {
+  font-family: 'Aptos', 'Segoe UI', sans-serif;
+  color: #202b28;
+  background: #f3f5f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --ink: #202b28;
+  --muted: #697570;
+  --line: #dce2dd;
+  --paper: #ffffff;
+  --ground: #f3f5f2;
+  --green: #176b52;
+  --green-dark: #104c3c;
+  --green-pale: #e5efe9;
+  --orange: #da7650;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-y: auto !important;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: var(--green-dark);
+  background: #cce5d8;
+}
